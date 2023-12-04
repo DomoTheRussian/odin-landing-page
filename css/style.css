@@ -53,7 +53,7 @@ main {
   justify-content: space-evenly;
   flex-direction: row;
   background-color: #1f2937;
-  padding: 50px;
+  padding: 5% 10%;
 }
 
 .left-side {
@@ -85,9 +85,10 @@ main {
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: center;
+  justify-content: space-evenly;
   background: #ffffff;
   padding: 60px;
+  padding-top: 30px;
 }
 
 .container {
@@ -101,7 +102,7 @@ main {
   display: flex;
   background: #ffffff;
   justify-content: center;
-  margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 .info-header h2 {
@@ -120,20 +121,20 @@ main {
   display: flex;
   background: #ffffff;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   text-align: justify;
-  margin: 20px;
 }
 
 .container {
   max-width: 175px;
+  margin: 0px 10px;
 }
 
 .box {
   box-sizing: border-box;
   padding: 80px;
   background-color: #ffffff;
-  border: solid 5px #3882F6;
+  border: solid 4px #3882F6;
   border-radius: 10px;
 }
 
@@ -161,31 +162,50 @@ main {
   font-size: 36px;
 }
 
-.cta {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+.cta-container {
   align-items: center;
   background: #ffffff;
-  color: #1f2937;
   padding: 5% 10%;
+}
+
+.cta {
+  display: flex;
+  background: #3882F6;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5% 0%;
+  border-radius: 10px;
 }
 
 .call {
   display: flex;
   flex-direction: column;
-  background: #ffffff;
-  color: #1f2937;
+  justify-content: flex-start;
+  background: #3882F6;
+  color: #F9FAF8;
 }
 
-.call h2{
-  background: #ffffff;
-  color: #1f2937;
+.call h2 {
+  background: #3882F6;
+  color: #F9FAF8;
 }
 
-.call p{
-  background: #ffffff;
-  color: #1f2937;
+.call p {
+  background: #3882F6;
+  color: #F9FAF8;
+}
+
+.another-button {
+  background-color: #3882F6;
+}
+
+.another-button button {
+  padding: 9px 25px;
+  background-color: #3882F6;
+  border: solid 2px #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
 }
 
 button {
@@ -195,10 +215,6 @@ button {
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.5s ease 0s;
-}
-
-button a:hover {
-  color: #96b0e2;
 }
 
 footer {
