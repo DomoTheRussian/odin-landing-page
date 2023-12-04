@@ -84,6 +84,7 @@ main {
   text-align: center;
   justify-content: space-between;
   background: #ffffff;
+  margin-top: 50px; 
 }
 
 .container {
@@ -93,6 +94,7 @@ main {
   justify-content: space-between;
   align-items: center;
   margin: 0px 30px;
+  max-width: 100px;
 }
 
 .info-header { 
@@ -109,22 +111,24 @@ main {
 
 .text {
   background: #ffffff;
-  color: #1f2937;
+  color: #67707c;
+  font-weight: 300;
+  font-size: 12px;
 }
 
 .container-direction {
   display: flex;
   background: #ffffff;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 20px;
 }
 
 .box {
   box-sizing: border-box;
-  padding: 100px 100px;
+  padding: 50px 50px;
   background-color: #ffffff;
-  border: solid 5px #3882F6;
+  border: solid 3px #3882F6;
   border-radius: 10px; 
 }
 
